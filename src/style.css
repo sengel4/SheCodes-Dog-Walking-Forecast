@@ -1,0 +1,84 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(128, 248, 174) 0%,
+    rgb(223, 244, 148) 90%
+  );
+}
+.container {
+  border: 8px solid #29668b;
+  border-radius: 0px 15px 0px 15px;
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 {
+  font-family: "Varela Round", sans-serif;
+  color: #29668b;
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  padding: 5px;
+}
+
+h3 {
+  font-family: "Varela Round", sans-serif;
+  color: #4bc87f;
+  padding: 20px 0 10px 0;
+  text-align: center;
+  padding: 10px;
+}
+img {
+  width: 150px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px 0px 15px 0px;
+  border: 5px solid #f0f87f;
+}
+h5 {
+  color: #29668b;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.stats {
+  color: #6eaff7;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0 0 0;
+}
+.emoji {
+  font-size: 35px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 0 0 0;
+}
+.current {
+  color: #6eaff7;
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.future {
+  color: #6eaff7;
+  font-size: 12px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0 0 0;
+}
+.day {
+  color: #29668b;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0 0 0;
+  font-weight: bold;
+}
