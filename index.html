@@ -24,21 +24,20 @@
   <body>
       <br></br>
     <div class="container">
-      <div class="row">
-        <div class="col-10"><h1>DOG-WALKING FORECAST</h1></div>
-        <div class="col-2"><div class="btn-group me-2" role="group" aria-label="First group">
+      <div class="row justify-content-center">
+        <div class="col-9"><h1>Dog-Walking Forecast</h1></div>
+        <div class="col-1"><div class="btn-group me-2" role="group" aria-label="First group">
     <button type="button" class="btn btn-outline-secondary">℉</button>
     <button type="button" class="btn btn-outline-secondary">℃</button>
   </div></div>
       </div>
-      <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8">
+      <div class="row justify-content-center">
+        <div class="col-9">
            <form class="form" id="search-form"><div class="input-group">
             <input
               type="text"
               class="form-control"
-              placeholder="Enter Your Dog-Walking City..."
+              placeholder="Enter Your City..."
               aria-label="Recipient's username with two button addons"/>
             <button class="btn btn-outline-primary" type="button">
               Search
@@ -50,57 +49,41 @@
           <div class="col-2"></div>
         </div>
       </div>
-      <h3>Your Current Dog-Walking Forecast <span id="showTime"></span></h3>
-    <div class="row">
-        <div class="col-5"><img src="img/bizzle_main.jpeg" /></div>
-                <div class="col-3">
+      <h3>Today's Dog-Walking Forecast...</h3>
+        <h6><span id="showTime"></span></h6>
+    <div class="row justify-content-center">
+        <div class="col-4"><img src="img/bizzle_main.jpeg" /></div>
+        <div class="col-4">
           <h5 id="currentCity">Smyrna, GA</h5>
           <span class="stats">
             Feels Like 87℉<br />
             Day 91℉<br />
-            Night 67℉</span></div>
-        <div class="col-4">
-          <h5 id="currentTemp">85℉</h5>
-          <span class="emoji">☀️</span>
-          <span class="current">Sunny</span>
-        </div>
-
-        
+            Night 67℉</span></div></div>
       <div class="row">
-        <h3>5-Day Dog-Walking Forecast:</h3>
+        <h3>3-Day Dog-Walking Forecast:</h3>
       </div>
       <div class="row">
-        <div class="col-3">
+          <div class="row justify-content-md-center">
+        <div class="col col-lg-2">
           <span class="day">Tuesday</span>
           <span class="emoji">🌥</span>
           <span class="future">Mostly Cloudy<br />
             85℉ | 62℉</span>
         </div>
-        <div class="col-2">
+        <div class="col col-lg-2">
           <span class="day">Wednesday</span>
           <span class="emoji">⛈</span>
           <span class="future">Thunderstorms<br />
             79℉ | 58℉</span>
         </div>
-        <div class="col-3">
+      <div class="col col-lg-2">
           <span class="day">Thursday</span>
           <span class="emoji">🌧</span>
           <span class="future">Rainy<br />
             76℉ | 51℉</span>
         </div>
-        <div class="col-2">
-          <span class="day">Friday</span>
-          <span class="emoji">☁️</span>
-          <span class="future">Overcast<br />
-            79℉ | 60℉</span>
         </div>
-        <div class="col-2">
-          <span class="day">Saturday</span>
-          <span class="emoji">☁️</span>
-          <span class="future">Overcast<br />
-            78℉ | 58℉</span>
-        </div>
-      </div>
+      </div></div>
     </div>
     <script src="src/script.js"></script>
   </body>

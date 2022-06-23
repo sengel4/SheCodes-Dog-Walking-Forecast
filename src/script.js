@@ -12,7 +12,7 @@ let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Friday", "Saturday"];
 let day = days[now.getDay()];
 document.getElementById(
   "showTime"
-).innerHTML = `for ${day}, at ${hours}:${minutes}`;
+).innerHTML = `${day}, at ${hours}:${minutes}`;
 
 function search(event) {
   event.preventDefault();
