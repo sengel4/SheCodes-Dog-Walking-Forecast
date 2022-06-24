@@ -14,10 +14,8 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Round&family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <!-- Body Begins -->
@@ -36,29 +34,31 @@
            <form class="form" id="search-form"><div class="input-group">
             <input
               type="text"
+              id="city-input"
               class="form-control"
               placeholder="Enter Your City..."
               aria-label="Recipient's username with two button addons"/>
-            <button class="btn btn-outline-primary" type="button">
+            <button class="btn btn-outline-primary" type="submit" id="search_btn">
               Search
             </button>
-            <button class="btn btn-outline-success" type="button">
+            <button class="btn btn-outline-success" type="submit" id="location_btn">
               Current
             </button>
           </form></div>
           <div class="col-2"></div>
         </div>
       </div>
-      <h3>Today's Dog-Walking Forecast...</h3>
-        <h6><span id="showTime"></span></h6>
+        <h3>Today's Dog-Walking Forecast...</h3>
     <div class="row justify-content-center">
         <div class="col-4"><img src="img/bizzle_main.jpeg" /></div>
         <div class="col-4">
-          <h5 id="currentCity">Smyrna, GA</h5>
-          <span class="stats">
-            Feels Like 87℉<br />
-            Day 91℉<br />
-            Night 67℉</span></div></div>
+          <h5 id="currentCity">Search Your City</h5>
+            <span id="showTime"></span>
+            <span id="temperature"></span><br>
+            <span id="icon"></span><br>
+            <span id="description"></span><br>
+
+</div></div>
       <div class="row">
         <h3>3-Day Dog-Walking Forecast:</h3>
       </div>
@@ -85,6 +85,7 @@
         </div>
       </div></div>
     </div>
+    <small><a href="https://github.com/sengel4/SheCodes-Dog-Walking-Forecast" target="blank" class="link-info">Open Source Code on Github</a> by Samantha Engel</small>
     <script src="src/script.js"></script>
   </body>
 </html>

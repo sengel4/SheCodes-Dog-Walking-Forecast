@@ -28,8 +28,10 @@ h3 {
   text-align: center;
 }
 h6 {
-  font-family: "Varela Round", sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   color: #4bc87f;
+  font-size: 14px;
   text-align: center;
   margin: 0 auto;
   padding: 0px 0px 10px 0px;
@@ -47,6 +49,22 @@ h5 {
   display: block;
   margin: 0 auto;
   text-align: left;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+}
+#currentCity::first-letter {
+  color: #29668b;
+  font-size: 1.75rem;
+  font-family: "Nova Round", cursive;
+}
+#showTime {
+  color: #29668b;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 .stats {
   color: #6eaff7;
@@ -63,12 +81,20 @@ h5 {
   text-align: center;
   padding: 0 0 0 0;
 }
-.current {
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   color: #6eaff7;
-  font-size: 18px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 19px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .future {
   color: #6eaff7;
@@ -77,6 +103,8 @@ h5 {
   margin: 0 auto;
   text-align: center;
   padding: 10px 0 0 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .day {
   color: #29668b;
@@ -86,4 +114,14 @@ h5 {
   text-align: center;
   padding: 10px 0 0 0;
   font-weight: bold;
+  font-family: "Varela Round", sans-serif;
+}
+small {
+  font-family: monospace;
+  color: grey;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
 }
