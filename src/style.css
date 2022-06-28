@@ -85,11 +85,11 @@ h6 {
   cursor: default;
 }
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:link {
   text-decoration: none;
-  color: #4bc87f;
+  color: #6eaff7;
 }
 .stats {
   color: #6eaff7;
