@@ -8,7 +8,7 @@ body {
 .container {
   border: 8px solid #29668b;
   border-radius: 0px 15px 0px 15px;
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -36,7 +36,7 @@ h6 {
   margin: 0 auto;
   padding: 0px 0px 10px 0px;
 }
-img {
+#mainPic {
   width: 150px;
   text-align: center;
   display: block;
@@ -44,17 +44,18 @@ img {
   border-radius: 15px 0px 15px 0px;
   border: 5px solid #29668b;
 }
-h5 {
+#currentCity {
   color: #29668b;
   display: block;
   margin: 0 auto;
   text-align: left;
   font-family: "Varela Round", sans-serif;
   font-weight: 600;
+  font-size: 30px;
 }
 #currentCity::first-letter {
   color: #29668b;
-  font-size: 1.75rem;
+  font-size: 2.25rem;
   font-family: "Nova Round", cursive;
 }
 #showTime {
@@ -64,7 +65,31 @@ h5 {
   text-align: left;
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
+}
+#temperature {
+  color: #29668b;
+  margin: 0 auto;
+  text-align: left;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+}
+.units {
+  color: #29668b;
+  margin: 0 auto;
+  text-align: left;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: default;
+}
+a:hover {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+  color: #4bc87f;
 }
 .stats {
   color: #6eaff7;
@@ -83,16 +108,14 @@ h5 {
 }
 ul {
   margin: 0;
-  padding: 0;
+  padding: 20px 0 0 0;
 }
 li {
   list-style: none;
   margin: 0;
   padding: 0;
   color: #6eaff7;
-  font-size: 14px;
-  font-weight: 100;
-  line-height: 19px;
+  font-size: 12px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -124,4 +147,7 @@ small {
   text-align: center;
   font-size: 12px;
   padding: 10px;
+}
+li:first-letter {
+  text-transform: capitalize;
 }

@@ -23,17 +23,13 @@
       <br></br>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-9"><h1>Dog-Walking Forecast</h1></div>
-        <div class="col-1"><div class="btn-group me-2" role="group" aria-label="First group">
-    <button type="button" class="btn btn-outline-secondary">℉</button>
-    <button type="button" class="btn btn-outline-secondary">℃</button>
-  </div></div>
+        <div class="col-12"><h1>Dog-Walking Forecast</h1></div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-9">
+        <div class="col-8">
            <form class="form" id="search-form"><div class="input-group">
             <input
-              type="text"
+              type="search"
               id="city-input"
               class="form-control"
               placeholder="Enter Your City..."
@@ -50,15 +46,21 @@
       </div>
         <h3>Today's Dog-Walking Forecast...</h3>
     <div class="row justify-content-center">
-        <div class="col-4"><img src="img/bizzle_main.jpeg" /></div>
-        <div class="col-4">
-          <h5 id="currentCity">Search Your City</h5>
+        <div class="col-3"><img src="img/bizzle_main.jpeg" id="mainPic"/></div>
+        <div class="col-3">
+          <span id="currentCity">Search Your City</span>
             <span id="showTime"></span>
-            <span id="temperature"></span><br>
-            <span id="icon"></span><br>
-            <span id="description"></span><br>
-
-</div></div>
+            <ul>
+                <li id="description"></li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> m/h</li>
+            </ul>
+        </div>
+        <div class="col-3">
+             <img src="" id="icon" class="float-right" /><br>
+            <span id="temperature"></span> <span class="units"> <a href="#" id="celsius-link">°C</a> | <a href="#" id="fahrenheit-link">°F</a></span>
+        </div>
+</div>
       <div class="row">
         <h3>3-Day Dog-Walking Forecast:</h3>
       </div>
