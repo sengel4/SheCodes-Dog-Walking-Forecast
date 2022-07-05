@@ -27,13 +27,7 @@ h3 {
   padding: 10px 0px 0px 0px;
   text-align: center;
 }
-h6 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  color: #4bc87f;
-  font-size: 14px;
-  margin: 0 auto;
-}
+
 #mainPic {
   width: 150px;
   text-align: center;
@@ -66,7 +60,7 @@ h6 {
   font-size: 12px;
 }
 #temperature {
-  color: #6eaff7;
+  color: #4bc87f;
   margin: 0 auto;
   text-align: center;
   display: contents;
@@ -75,14 +69,14 @@ h6 {
   font-size: 40px;
 }
 #unit {
-  color: #6eaff7;
+  color: #4bc87f;
   margin: 0 auto;
   text-align: center;
   justify-content: center;
   display: inline;
   font-family: "Varela Round", sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 30px;
   vertical-align: top;
 }
 
