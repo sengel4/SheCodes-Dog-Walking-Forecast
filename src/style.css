@@ -32,9 +32,7 @@ h6 {
     "Lucida Sans", Arial, sans-serif;
   color: #4bc87f;
   font-size: 14px;
-  text-align: center;
   margin: 0 auto;
-  padding: 0px 0px 10px 0px;
 }
 #mainPic {
   width: 150px;
@@ -48,7 +46,7 @@ h6 {
   color: #29668b;
   display: block;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   font-family: "Varela Round", sans-serif;
   font-weight: 600;
   font-size: 30px;
@@ -62,83 +60,41 @@ h6 {
   color: #29668b;
   display: block;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
   font-size: 12px;
 }
 #temperature {
-  color: #29668b;
-  margin: 0 auto;
-  text-align: left;
-  font-family: "Varela Round", sans-serif;
-  font-weight: 400;
-  font-size: 35px;
-}
-.units {
-  color: #29668b;
-  margin: 0 auto;
-  text-align: left;
-  font-family: "Varela Round", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  cursor: default;
-  vertical-align: super;
-}
-a:hover {
-  text-decoration: underline;
-}
-a:link {
-  text-decoration: none;
   color: #6eaff7;
-}
-.stats {
-  color: #6eaff7;
-  font-size: 14px;
-  display: block;
-  margin: 0 auto;
-  text-align: left;
-  padding: 10px 0 0 0;
-}
-.emoji {
-  font-size: 35px;
-  display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 0 0 0 0;
+  display: contents;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
 }
-ul {
-  margin: 0;
-  padding: 20px 0 0 0;
+#unit {
+  color: #6eaff7;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  display: inline;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  vertical-align: top;
 }
-li {
-  list-style: none;
-  margin: 0;
+
+#list {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
   padding: 0;
   color: #6eaff7;
   font-size: 12px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-}
-.future {
-  color: #6eaff7;
-  font-size: 12px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  padding: 10px 0 0 0;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-.day {
-  color: #29668b;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  padding: 10px 0 0 0;
-  font-weight: bold;
-  font-family: "Varela Round", sans-serif;
 }
 small {
   font-family: monospace;
@@ -152,17 +108,54 @@ small {
 li:first-letter {
   text-transform: capitalize;
 }
-.float-right {
+#description {
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 10px 0 0 0;
+  color: #6eaff7;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#description:first-letter {
+  text-transform: capitalize;
+}
+#icon {
+  font-size: 12px;
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .weather-forecast {
   margin-top: 20px;
+  color: #6eaff7;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
   text-align: center;
-  color: #000;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-
 .weather-forecast-date {
+  color: #29668b;
   font-size: 16px;
-  opacity: 0.5;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0 0 0;
+  font-weight: bold;
+  font-family: "Varela Round", sans-serif;
+}
+.clearfix-weather-temperature {
+  color: #6eaff7;
+  font-size: 12px;
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 10px 0 0 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
